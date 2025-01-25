@@ -140,6 +140,9 @@ install_python() {
   sudo apt install python3-pip -y
   pip3 --version
   echo -e "${GREEN}✅ Python installed successfully.${RESET}"
+
+  echo 
+  echo 
 }
 
 install_docker() {
