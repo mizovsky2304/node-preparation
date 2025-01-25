@@ -15,9 +15,6 @@ ICON_RESTART="🔄"
 ICON_STOP="⏹️"
 ICON_START="▶️"
 ICON_EXIT="❌"
-ICON_REMOVE="🗑️"
-ICON_VIEW="👀"
-ICON_DOLLAR="💳"
 ICON_UPDATE="⛽️"
 
 
@@ -69,7 +66,7 @@ show_menu() {
     echo -e "    ${CYAN}3.${RESET} ${ICON_RESTART} Reboot Server"
     echo -e "    ${CYAN}0.${RESET} ${ICON_EXIT} Exit"
     draw_bottom_border
-    echo -ne "${YELLOW}Enter a command number [0-2]:${RESET} "
+    echo -ne "${YELLOW}Enter a command number [0-3]:${RESET} "
     read choice
 }
 
